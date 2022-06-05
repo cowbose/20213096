@@ -137,3 +137,23 @@
 |Stopped(SIGSTOP)|SIGSTOP 신호가 일시 중단했음을 뜻한다|
 |Stopped(SIGTTIN)|SIGTTIN 신호가 작업을 일시 중단했음을 뜻한다|
 |Stopped(SIGTTOU)|SIGTTOU 신호가 작업을 일시 중단했음을 뜻한다|
+
+### 유닉스 명령어 KILL
++ KILL 명령어 : 현재 사용자가 수행중인 프로세스를 죽이는 명령어
++ 명령어 형식 : kill [-l] [-signalID] {PID}*
++ kill 명령어의 옵션 
+
+
+                signalID 신분번호이거나 이름
+                
+                
+                signalID 9 이외에 번호로 자신을 보호할 수 있음
+                
+                
+                옵션 -l은 적합한 시그널 이름의 목록을 표시    
+
+### Vim 매크로
++ q + a : a키에 recording 시작
++ 반복을 위한 내가 원하는 동작
++ q : recording 종료
++ @a : 1회 실행/@@ : 방금 실행한 매크로 실행/10@a : 매크로 10회 실행
